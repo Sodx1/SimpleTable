@@ -1,0 +1,63 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+h2
+{
+    text-align: center;
+    margin: 20px;
+    font-family: cursive;
+}
+table
+{
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+    margin: 50px auto 0px auto;
+}
+
+th
+{
+    background-color: rgb(26, 104, 222);
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+}
+tr:nth-child(even)
+{
+    background-color: rgb(250, 247, 242);
+}
+tr:hover
+{
+    background-color: rgb(156, 154, 166);
+}
+td
+{
+    padding: 3px;
+}
+input
+{
+    width: 95%;
+    margin-left: 20px;
+    padding: 10px; ;
+    border: 2px solid black;
+    font-size: 20px;
+}
+input:focus
+{
+    border: 2px solid rgb(3, 3, 43);
+}
+@media screen and (max-width: 421px)
+{
+    input
+    {
+        width: 100%;
+        margin: 0;
+        padding: 10px; ;
+        border: 2px solid black;
+        font-size: 20px;
+    }
+}

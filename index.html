@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск по таблице</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+    <h2>Поиск по данной таблице</h2>
+    <input type="text" id="searchInput" placeholder="Искать по имени">
+    <table>
+        <tr>
+            <th data-column="name" data-order="descending" name="header">Имя &#9650</th> 
+            <th data-column="birth" data-order="descending" name="header">Год рождения &#9650</th>
+            <th data-column="death" data-order="descending" name="header">Год смерти &#9650</th>
+            <th data-column="good" data-order="descending" name="header">Хороший человек &#9650</th>
+            <th data-column="love" data-order="descending" name="header">Была любовь &#9650</th>
+        </tr>
+        <tbody  id="table">
+
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
